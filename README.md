@@ -1,14 +1,17 @@
 # EasyMap
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is built with Vue3, Vite, and Bootstrap
 
-## Recommended IDE Setup
+## Functions
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Acquire current location from browser
+- A search bar to input the name of a location and navigate to the searched location with marker
+- A table displaying recent search results along with their time zones and local time when searching is applied
+- Checkboxes to delete selected records
 
-## Customize configuration
+## Page Preview
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+![Screenshot 2023-11-28 at 10 01 07 PM](https://github.com/yiruW/EasyMap/assets/43528898/cd99a8bb-c021-4bde-9066-192af4213eff)
 
 ## Project Setup
 
@@ -16,14 +19,8 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compile
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
